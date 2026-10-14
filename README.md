@@ -5,9 +5,8 @@ A compact, USB-C powered constant-current LED driver built around the Maxim **MA
 Built specifically to replace and upgrade the **discontinued halogen bulb assembly of Olympus BH2 lab microscopes**. It drops into the original lamp housing and swaps the hot, short-lived halogen bulb for a cool, efficient, high-CRI LED, while adding USB-C power, presets, and precise brightness control.
 
 <p align="center">
-  <img src="images/microscope.jpg" width="45%" alt="LED module in front of an Olympus BH2 microscope">
+  <img width="2352" height="1264" src="https://github.com/user-attachments/assets/ca4f8d06-d4d1-4208-9145-87da05907e56" alt="PCB Rendering of latest V3 Revision, to be fabed by 2027">
 </p>
-<img width="2352" height="1264" alt="CombinedLEDdriverMAX278" src="https://github.com/user-attachments/assets/ca4f8d06-d4d1-4208-9145-87da05907e56" />
 
 ## Photos
 
@@ -136,3 +135,7 @@ images/                               Photos used in this README
 4. Hold the up/down buttons to ramp brightness; hold down past minimum to turn off.
 
 > Heat sink the emitter properly before running at full current.
+
+<p align="center">
+  <img src="images/microscope.jpg" width="45%" alt="LED module in front of an Olympus BH2 microscope">
+</p>
