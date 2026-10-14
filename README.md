@@ -1,4 +1,4 @@
-# USB-C PD High-CRI LED Driver
+# USB-C PD High-CRI LED Driver for Olympus BH-2 BHTU Microscopes
 
 A compact, USB-C powered constant-current LED driver built around the Maxim **MAX20078** synchronous buck controller and an **STM32G031** microcontroller. It drives a high-CRI **Nichia 519A** emitter at up to **5 A**, with user-configurable control, saved settings, safety limits, and heavy input protection.
 
