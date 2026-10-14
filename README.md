@@ -24,6 +24,7 @@ Built specifically to replace and upgrade the **discontinued halogen bulb assemb
 - **Hardware-debounced buttons:** SR-latch debounce using SPDT switches and an SN74AC00 NAND gate
 - **Fault handling:** the MAX20078 fault output is monitored and handled in firmware
 - **Protection:** TVS clamping, fusing, EMI filtering, and gate/transient clamps
+- **Custom CNC Nichia 519 Holder** Custom designed CNC 6061 Aluminum heatsink and male socket part that slides into the BHTU's rear illumination port with O-rings to prevent wear and ensure a tight friction fit.
 
 ## System Overview
 
