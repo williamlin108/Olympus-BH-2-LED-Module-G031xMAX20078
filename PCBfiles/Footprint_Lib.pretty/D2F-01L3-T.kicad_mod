@@ -1,0 +1,129 @@
+(footprint "D2F-01L3-T"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SPDT Microswitch")
+	(tags "Microswitch, Limitswitch, Omron D2F, SPDT")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9b520f5c-ebe5-4289-9e02-d18c941711b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Omron D2F"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a14d052f-b07a-402c-bbdb-c1f7c022c852")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "52df5281-62c6-4b63-88c9-3ae36d96aaa1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f41a7a9-8225-4f4d-92de-580c298c1701")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -6.4 -2.9)
+		(end 6.4 2.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6a3f6f94-a234-48b3-80d2-fa9e78cf7397")
+	)
+	(fp_rect
+		(start -6.5 -3)
+		(end 6.5 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "14ab7ad0-2e1e-4cf7-a8ee-a3d49eec62f0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fa5063ae-df3e-4417-9a55-5e71f3090472")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 5.08 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "F.Mask")
+		(remove_unused_layers no)
+		(uuid "24502f86-d9fa-420f-ad24-74aa4ed46667")
+	)
+	(pad "2" thru_hole circle
+		(at -5.08 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "F.Mask")
+		(remove_unused_layers no)
+		(uuid "3871fbd6-d192-4a1a-9d75-d9afbeddbede")
+	)
+	(pad "3" thru_hole circle
+		(at 0 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "F.Mask")
+		(remove_unused_layers no)
+		(uuid "a55a9f5e-d7a9-4495-a4d4-d6b2525a1e99")
+	)
+	(embedded_fonts no)
+	(model "/3d_Lib/d2f-01l3-t.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

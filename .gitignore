@@ -1,0 +1,54 @@
+# ---- KiCad ----
+# Backups and autosave
+*-backups/
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+# Lock files
+*.lck
+~*.lck
+# Per-user project local settings
+*.kicad_prl
+# Fabrication / plot outputs
+*.gbr
+*.gbrjob
+*.drl
+*.pos
+gerbers/
+Gerbers/
+production/
+# Netlists, ERC/DRC reports
+*.net
+*.xml.bak
+*.rpt
+*.erc
+*.drc
+
+# ---- STM32CubeIDE / Eclipse ----
+Debug/
+Release/
+*.o
+*.d
+*.su
+*.cyclo
+*.elf
+*.map
+*.list
+*.hex
+*.bin
+.metadata/
+.settings/
+*.launch
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+desktop.ini
