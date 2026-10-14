@@ -7,6 +7,7 @@ Built specifically to replace and upgrade the **discontinued halogen bulb assemb
 <p align="center">
   <img src="images/microscope.jpg" width="45%" alt="LED module in front of an Olympus BH2 microscope">
 </p>
+<img width="2352" height="1264" alt="CombinedLEDdriverMAX278" src="https://github.com/user-attachments/assets/ca4f8d06-d4d1-4208-9145-87da05907e56" />
 
 ## Photos
 
